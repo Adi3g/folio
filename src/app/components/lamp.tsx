@@ -16,8 +16,7 @@ export function LampText() {
         }}
         className="mt-8 bg-gradient-to-br from-slate-300 to-slate-500 py-4 bg-clip-text text-center text-4xl font-medium tracking-tight text-transparent md:text-7xl"
       >
-        
-        Hi, I'm Adib Grouz <br /> Full Stack Software Engineer
+        Hi, I&apos;m Adib Grouz <br /> Full Stack Software Engineer
       </motion.h1>
     </LampContainer>
   );
