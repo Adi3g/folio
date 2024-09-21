@@ -1,21 +1,12 @@
-"use client";
-import React from "react";
-import { motion } from "framer-motion";
-import { cn } from "@/lib/utils";
-import { FocusCardsDemo } from "../components/focus-cards";
+import React from 'react';
 
-export default function Gallery(className?: string) {
-  return (
-    <div
-      className={cn(
-        "relative flex min-h-screen flex-col items-center justify-center overflow-hidden bg-slate-950 w-full rounded-md z-0",
-        className
-      )}
-    >
+const GalleryPage: React.FC = () => {
+    return (
+        <div>
+            <h1>Gallery Page</h1>
+            <p>Welcome to the gallery!</p>
+        </div>
+    );
+};
 
-      <div className="flex flex-col items-center justify-center w-full h-full p-5">
-        <FocusCardsDemo />
-      </div>
-    </div>
-  );
-}
+export default GalleryPage;
