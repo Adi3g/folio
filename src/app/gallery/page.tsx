@@ -1,10 +1,12 @@
-import { FocusCardsDemo } from "../components/focus-cards";
+import React from 'react';
 
+const GalleryPage: React.FC = () => {
+    return (
+        <div>
+            <h1>Gallery Page</h1>
+            <p>Welcome to the gallery!</p>
+        </div>
+    );
+};
 
-export default function Home() {
-  return (
-    <main className="bg-black text-white min-h-screen">
-        <FocusCardsDemo />
-    </main>
-  )
-}
+export default GalleryPage;
